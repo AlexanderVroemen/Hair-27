@@ -32,7 +32,7 @@ export function Hero() {
                 Maak een afspraak
                 <ArrowRight size={18} strokeWidth={1.7} />
               </ButtonLink>
-              <ButtonLink href="#behandelingen" variant="outline" className="border-[rgb(255_250_243_/_0.42)] bg-[rgb(31_28_25_/_0.18)] text-[var(--surface)] backdrop-blur hover:bg-[rgb(31_28_25_/_0.32)]">
+              <ButtonLink href="#behandelingen" variant="secondary">
                 Bekijk behandelingen
               </ButtonLink>
             </div>

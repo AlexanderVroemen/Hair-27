@@ -24,7 +24,7 @@ export function Appointment() {
                 <Mail size={18} strokeWidth={1.7} />
                 Stuur e-mail
               </ButtonLink>
-              <ButtonLink href={siteData.business.mapsUrl} variant="outline" target="_blank" rel="noreferrer" className="border-[rgb(255_250_243_/_0.32)] text-[var(--surface)] hover:bg-[rgb(255_250_243_/_0.08)]">
+              <ButtonLink href={siteData.business.mapsUrl} variant="secondary" target="_blank" rel="noreferrer">
                 <MapPin size={18} strokeWidth={1.7} />
                 Bekijk route
               </ButtonLink>
